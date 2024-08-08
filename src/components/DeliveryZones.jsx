@@ -23,6 +23,13 @@ function DeliveryZones() {
           Zones
         </p>
       </div>
+      <p className=" mt-10 text-[36px] leading-[100%]">
+        Our drone delivery service is rapidly expanding. Explore our
+        continuously growing list of delivery zones to see if we&apos;re in your
+        area.Is your neighborhood not listed? We&apos;re tirelessly working to
+        broaden our reach while complying with the latest regulations. Stay
+        tuned—we&apos;re eager to deliver to you soon!
+      </p>
       <motion.img
         ref={targetRef}
         style={{ y, scale }}
