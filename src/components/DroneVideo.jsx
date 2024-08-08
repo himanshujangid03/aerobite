@@ -14,7 +14,7 @@ function DroneVideo() {
         autoPlay
         muted
         loop
-        className=" w-full h-dvh aspect-video object-fill"
+        className=" w-full h-dvh object-cover"
       ></video>
     </motion.div>
   );

@@ -20,7 +20,7 @@ requestAnimationFrame(raf);
 export default function App() {
   return (
     <>
-      <m.div className=" font-matter transition-all">
+      <m.div className="hidden lg:block font-matter transition-all">
         <Navbar />
         <HeroSection />
         <DroneVideo />

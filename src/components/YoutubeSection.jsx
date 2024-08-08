@@ -12,7 +12,7 @@ function YoutubeSection() {
           firsthand how Aerobite is transforming the way you receive your
           favorite meals.
         </p>
-        <button className=" py-6 px-12 text-white self-start font-light bg-primary text-[28px] rounded-full">
+        <button className=" py-6 px-12 text-white self-start font-light bg-primary text-[28px] rounded-full hover:bg-black hover:text-white transition-all duration-300">
           WATCH ON YOUTUBE
         </button>
       </div>

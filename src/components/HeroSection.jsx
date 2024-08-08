@@ -10,7 +10,6 @@ function HeroSection() {
   });
 
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
-  const color = useTransform(scrollYProgress, [0, 1], [1, "white"]);
   const y = useTransform(scrollYProgress, [0, 1], [1, 100]);
 
   return (
@@ -18,7 +17,7 @@ function HeroSection() {
       <div className=" grid grid-cols-[auto,auto] items-center justify-center gap-16 py-2">
         <p className=" italic text-[136px] w-fit ">Sky High Dining</p>
 
-        <div>
+        <motion.div initial={{ scale: 0}} animate={{scale:1}} transition={{duration: 0.4}}>
           <img
             src={droneImage}
             width={278}
@@ -26,7 +25,7 @@ function HeroSection() {
             className="rounded-full"
             alt="drone image"
           />
-        </div>
+        </motion.div>
       </div>
       <p className=" text-[136px] w-full text-center leading-tight tracking-[-3%]">
         Delivered to Your Doorstep

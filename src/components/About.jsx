@@ -1,4 +1,5 @@
 import largeLogoDark from "../assets/large-logo-dark.png";
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -12,9 +13,13 @@ function About() {
           your favorite meals arrive hot and fresh, straight from the kitchen to
           your doorstep.
         </p>
-        <button className=" py-8 px-14 self-start text-white font-light  bg-primary text-[36px] rounded-full hover:bg-black hover:text-white transition-all duration-300">
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          transition={{ type: "spring", damping: 10, delay: 0, duration: 0.1}}
+          className=" py-8 px-14 self-start text-white font-light  bg-primary text-[36px] rounded-full hover:bg-black hover:text-white transition-all"
+        >
           Get The App
-        </button>
+        </motion.button>
       </div>
     </div>
   );

@@ -31,7 +31,7 @@ function Contact() {
           className=" flex-1 outline-none h-full text-white bg-transparent w-max text-4xl py-4 px-10"
           placeholder="Please enter your email address"
         />
-        <button className=" py-8 px-14 font-medium self-start text-white  bg-primary text-[36px] rounded-full flex items-center gap-4">
+        <button className=" py-8 px-14 font-medium self-start text-white  bg-primary text-[36px] rounded-full flex items-center gap-4 hover:bg-sky-400 transition-all duration-300">
           SUBSCRIBE
           <img
             src={emailIcon}
